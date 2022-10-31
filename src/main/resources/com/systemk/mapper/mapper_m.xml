@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.systemk.mapper.mapper_m">
+    <select id="check" resultType="java.util.HashMap" parameterType="java.util.HashMap">
+        SELECT
+          seq, name, sub, reg_date, cont
+        FROM
+            stcok
+    </select>
+    
+   <select id="searchM" resultType="java.util.HashMap" parameterType="java.util.HashMap">
+   	   SELECT
+        	*
+        FROM
+          stcok 
+          where seq  like  #{item}
+          order by seq desc
+    </select>
+      
+    <select id="searchN" resultType="java.util.HashMap" parameterType="java.util.HashMap">
+       SELECT
+    	  	*
+       FROM
+          stcok 
+          where name  like #{item}
+    </select>
+    
+    <select id="DBinsertMapper" resultType="java.util.HashMap" parameterType="java.util.HashMap">
+      INSERT
+      INTO stcok(seq,name,sub,reg_date,cont)
+      VALUES (#{seq},#{name},#{sub},now(),#{cont})
+    </select>
+    
+    <delete id="DBdeleteMapper"  parameterType="int">
+      DELETE       			
+      FROM stcok
+      WHERE seq = #{item}
+    </delete>
+
+</mapper>
+

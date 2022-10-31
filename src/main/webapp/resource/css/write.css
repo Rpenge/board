@@ -1,0 +1,37 @@
+
+.board_list_input{
+
+ padding-top: 45px;
+  padding:10px;
+	
+}
+.container3{
+	max-width: 933px;
+	
+}
+.inputsub1{
+	  text-align: right !important;
+}
+
+/* .inputseq, .inputname, .inputsub, .inputdate, .inputcont { */
+.inputsub2{
+	width: 600px;
+	height:30px;
+	  text-align: left !important;
+	
+}
+
+
+.findbtn{
+	text-align:center;
+}
+
+.insertbtn{
+ 	
+ 	display:inline-block;
+}
+
+.table-sub{
+   background-color: #dddedf;
+}
+

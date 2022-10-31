@@ -1,0 +1,203 @@
+/*테스트를 위한 간단한 방식*/
+
+/*button{
+    width: 100px !important;
+    height: 100px;
+}
+
+#test {
+    background-color: blue;  
+    border: none;  
+    color: white;  
+    padding: 15px 30px;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 16px;  
+    margin: 4px 2px;  
+    cursor: pointer;  
+  }*/
+
+
+@media (max-width: 992px) {
+	 #hidden {
+	    display: none !important;
+	  }
+	  #appear{
+	  	display:inline !important;
+	  }
+	  #myCarousel{
+	  	display: none !important;
+	  }
+}
+
+@media (min-width: 992px) {
+	 #appear {
+	    display: none !important;
+	  }
+	    #hidden{
+	  	display:inline !important;
+	  }
+}
+
+table{
+    border-collapse: collapse;   
+}
+caption{
+    display:none;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+.search{
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+ 
+}
+#container2{
+	min-width: 992px !important;
+	
+}
+#navbar-example2{
+	left:20px;
+	bottom:20px;
+	
+}
+
+.search_list {
+    margin:auto;
+    height: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0.5px 50px;
+    text-align: center;
+     float: center;
+     bottom:10px; 
+     
+ }
+ .search_list .search_list1{
+  width: 163px;
+
+ }
+
+.search_list_box .search_list_input{
+    font-size:  15px;
+    margin:auto;
+    width: 163px;
+    padding: 10px;
+    border: 1px;
+    outline: none;
+     float: center;
+}
+
+.search_list_box{
+ 
+    height: 10px;
+    width: 300px;
+    border: 0.5px solid rgb(199, 199, 199) ;
+    background: #fff;
+    bottom:20px;
+    
+}
+
+.search_list_box .search_list_but{
+	left:20px;
+    font-size:  13px;
+    width: 120px;
+    height: 100%;
+    padding: 7px;
+    border: 1px;
+    outline: none;
+    float: right ;
+}
+.board_list{
+	min-width: 960px !important;
+}
+
+.board_list_wrap{
+	min-width: 992px !important;
+    padding: 10px 50px;
+    top: 20px;
+}
+.board_list_wrap2{
+	min-width: 992px !important;
+    padding: 10px 50px;
+    bottom:20px;
+    
+}
+
+.board_list{
+    width: 100%;
+    border-top: 2px solid navy;
+ }
+
+.board_list tr{
+    border-bottom: 1px solid #999;
+}
+
+
+.board_list th,
+.board_list td{
+    padding:10px;
+    font-size: 14px;
+}
+
+.board_list td{
+    text-align: center;
+}
+
+.board_list .tit{
+    text-align: left;
+}
+.board_list .tit:hover{
+    text-decoration: underline;
+}
+.board_list_wrap .paging{
+    margin-top: 20px;
+    text-align: center;
+    font-size:0;
+}
+
+.board_list_wrap .paging a{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+.board_list_wrap .paging a:first-child{
+    margin-left: 0;
+}
+
+.board_list_wrap .paging a.bt{
+    border: 1px solid #eee;
+    background: #eee;
+    text-align: center;
+}
+
+.board_list_wrap .paging a.num{
+    border: 1px solid rgb(110, 109, 109);
+    font-weight: 600;
+    color:  rgb(110, 109, 109);
+}
+
+.board_list_wrap .paging a.num.on{
+    color: #fff;
+    background: rgb(110, 109, 109);
+}
+.board-info{
+	top: 30px;
+	min-width: 992px !important;
+	
+	
+}
+
+.form_radio{
+	margin : 5px;
+	
+}
+
+
